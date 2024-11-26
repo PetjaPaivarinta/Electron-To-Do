@@ -1,0 +1,22 @@
+{
+  "name": "todoapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PetjaPaivarinta/Electron-To-Do.git"
+  },
+  "author": "Petja Päivärinta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PetjaPaivarinta/Electron-To-Do/issues"
+  },
+  "homepage": "https://github.com/PetjaPaivarinta/Electron-To-Do#readme",
+  "devDependencies": {
+    "electron": "^33.2.0"
+  }
+}
