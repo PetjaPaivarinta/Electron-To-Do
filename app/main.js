@@ -12,7 +12,8 @@ function createWindow() {
         }
     });
 
-    mainWindow.loadFile('index.html');
+    const indexPath = path.join(__dirname, 'index.html');
+    mainWindow.loadFile(indexPath);
 }
 
 // Some APIs can only be used after this event occurs.
@@ -37,7 +38,7 @@ app.on('activate', () => {
     }
 });
 
-const filePath = path.join(app.getAppPath(), 'data.json');
+const filePath = path.join(__dirname, 'data.json');
 
 ipcMain.handle('read-file', async () => {
     try {
